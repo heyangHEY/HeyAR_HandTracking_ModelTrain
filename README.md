@@ -1,0 +1,2 @@
+# HeyAR_HandTracking_ModelTrain
+记录手势追踪任务的数据集处理和模型训练过程
