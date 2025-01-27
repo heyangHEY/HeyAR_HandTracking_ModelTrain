@@ -41,6 +41,8 @@ python view_samples_yolo_anno.py --root_dir=./yolo_format
 # 训练
 yolo pose train data=rhd.yaml model=yolov8n-pose.pt pretrained=True project=rhd_new_annotations name=yolov8n_pose_e100_b256_s256 epochs=100 batch=256 imgsz=256 device=0,1,2,3 fliplr=0.0
 # 注意，fliplr=0.0，当hand目标检测任务中，需要区分左右手时，一定要关闭数据增强中的左右翻转
+
+yolo detect train data=rhd.yaml model=yolov8m.pt pretrained=True project=rhd_hey_annotations name=yolov8m_pretrain_e200_b192_s640 epochs=200 batch=192 imgsz=640 device=0,1,2,3 fliplr=0.0
 ```
 三种标注格式的可视化：
 <p align="center">
