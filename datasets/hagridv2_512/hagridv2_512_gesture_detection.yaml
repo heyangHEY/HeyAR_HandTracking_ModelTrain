@@ -1,0 +1,42 @@
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+path: /home/hey/workspace/AI/dateset/yolo_data/hagridv2_512 # dataset root dir
+train: [images/train/grabbing, images/train/grip, images/train/holy, images/train/point, images/train/call, images/train/three3, images/train/timeout, images/train/xsign, images/train/hand_heart, images/train/hand_heart2, images/train/little_finger, images/train/middle_finger, images/train/take_picture, images/train/dislike, images/train/fist, images/train/four, images/train/like, images/train/mute, images/train/ok, images/train/one, images/train/palm, images/train/peace, images/train/peace_inverted, images/train/rock, images/train/stop, images/train/stop_inverted, images/train/three, images/train/three2, images/train/two_up, images/train/two_up_inverted, images/train/three_gun, images/train/thumb_index, images/train/thumb_index2, images/train/no_gesture]
+val: [images/val/grabbing, images/val/grip, images/val/holy, images/val/point, images/val/call, images/val/three3, images/val/timeout, images/val/xsign, images/val/hand_heart, images/val/hand_heart2, images/val/little_finger, images/val/middle_finger, images/val/take_picture, images/val/dislike, images/val/fist, images/val/four, images/val/like, images/val/mute, images/val/ok, images/val/one, images/val/palm, images/val/peace, images/val/peace_inverted, images/val/rock, images/val/stop, images/val/stop_inverted, images/val/three, images/val/three2, images/val/two_up, images/val/two_up_inverted, images/val/three_gun, images/val/thumb_index, images/val/thumb_index2, images/val/no_gesture]
+test: [images/test/grabbing, images/test/grip, images/test/holy, images/test/point, images/test/call, images/test/three3, images/test/timeout, images/test/xsign, images/test/hand_heart, images/test/hand_heart2, images/test/little_finger, images/test/middle_finger, images/test/take_picture, images/test/dislike, images/test/fist, images/test/four, images/test/like, images/test/mute, images/test/ok, images/test/one, images/test/palm, images/test/peace, images/test/peace_inverted, images/test/rock, images/test/stop, images/test/stop_inverted, images/test/three, images/test/three2, images/test/two_up, images/test/two_up_inverted, images/test/three_gun, images/test/thumb_index, images/test/thumb_index2, images/test/no_gesture]
+
+# Classes
+names:
+    0: grabbing
+    1: grip
+    2: holy
+    3: point
+    4: call
+    5: three3
+    6: timeout
+    7: xsign
+    8: hand_heart
+    9: hand_heart2
+    10: little_finger
+    11: middle_finger
+    12: take_picture
+    13: dislike
+    14: fist
+    15: four
+    16: like
+    17: mute
+    18: ok
+    19: one
+    20: palm
+    21: peace
+    22: peace_inverted
+    23: rock
+    24: stop
+    25: stop_inverted
+    26: three
+    27: three2
+    28: two_up
+    29: two_up_inverted
+    30: three_gun
+    31: thumb_index
+    32: thumb_index2
+    33: no_gesture
